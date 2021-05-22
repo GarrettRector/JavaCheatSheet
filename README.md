@@ -11,7 +11,7 @@ Java is a [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) Langu
 
 A lot of IDEs will cover Basic syntax, but I will cover a lot of it here:
 * Any Phrase in Java will require a semicolon (;) after it
-* Unlike Python, [Methods](#Methods) use Curly Brackets
+* Unlike Python, [Methods](#Methods) use Curly Brackets {}, instead of colons (:) [Example](https://github.com/GarrettRector/JavaCheatSheet/blob/master/examples/Methods.java)
 
 # Variables
 Hello
