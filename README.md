@@ -7,9 +7,10 @@ Java Cheat Sheet is just a bunch of Java syntax/examples
 
 Java is a [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) Language 
 (Object Orientated Programming), which means the language is based off [objects](#objects). 
-These objects can be [Variables](#variables), [Methods](#methods), a million other things.
+These objects can be [Variables](#variables), [Methods](#methods), [Bytes](#byte), and a million other things.
 Data types are also a big part of Java as well as every other programming language, which are
-[Primitive data types]() and [Non-Primitive data types](), which happen to be the two main 
+[Primitive data types]() and [Non-Primitive data types](), which happen to be the two main data types, 
+which lead into their respective hierarchies
 
 # Syntax
 
@@ -21,20 +22,90 @@ A lot of IDEs will cover Basic syntax, but I will cover a lot of it here:
       public void main(String[] args) {
           System.out.println("Java Examples");
       }
-* [Classifiers](#classifiers) are used for both methods and for variables, and are required for Java.
+  }
+* [Identifiers](#identifiers) are used for both methods and for variables, and are required for Java.
 * For 
 
 # Variables
-To Do
+ALL Variables in Java must declare their data type before when they are initialized.
+```java
+public class Methods {
+  String var = "Java Examples";
+  public void main(String[] args) {
+      System.out.println(var);
+  }
+}
+```
+In this example, we use a [Non-Primitive data type](#non-primitive-data-types), a String 
+(not to be confused with String[]), and tell Java that the String is a "String" of characters.
+This is necessary for Java because a lot of different things can be put into a variable and 
+Java wouldn't know what it is, and wouldn't be able to assign properties to the variable.
 
 # Methods
-Methods are a part of java that allows you to run multiple pieces of code at once, and require
+Methods are a part of java that allows you to run multiple pieces of code at once, and require [Identifiers](#identifiers).
+The
 
-# Classifiers
-To Do
+# Identifiers
+Classifiers are really just keywords, and they are used in the creation of methods, as well as a lot of other
+things in java.
+* abstract
+* assert
+* boolean
+* break
+* byte
+* case
+* catch
+* char
+* class
+* const
+* continue
+* default
+* do
+* double
+* else
+* enum
+* extends
+* final
+* finally
+* float
+* for
+* goto
+* if
+* implements
+* import
+* instanceof
+* int
+* interface
+* long
+* native
+* new
+* package
+* private
+* protected
+* public
+* return
+* short
+* static
+* String
+* strictfp
+* switch
+* synchronized
+* this
+* throw
+* throws
+* transient
+* try
+* void
+* volatile
+* while
+
+For Methods, the identifiers [Public](#public), [Private](#private) and [Protected](#protected), and then
+if you are going to use a [static](#static) method that goes in the second place, and then lastly identifiers
+such as [Void](#void), [Boolean](#boolean), [String](#string) and so on. A lot of IDEs will also cover this 
+if you just put your return statement.
 
 # Objects
-Objects composed of [Primitive data types](#primitive-data-types) and [Non-Primitive data types](#non-primitive-data-types)
+Objects are composed of [Primitive data types](#primitive-data-types) and [Non-Primitive data types](#non-primitive-data-types)
 and can be used to describe everything in Java because it is a OOP language, and is focused on Objects.
 
 # Primitive Data Types
@@ -152,3 +223,17 @@ public class Boolean {
 ```
 
 # Non-Primitive Data Types
+
+# Public
+
+# Private
+
+# Protected
+
+# Static
+
+# Void
+
+# Boolean
+
+# String
